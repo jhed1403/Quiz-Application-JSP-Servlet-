@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body
+{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#333333;
+}
+
+#container
+{
+    width:760px;
+    margin:auto;
+    background-color:#E6E6E6;
+}
+
+header
+{
+    height:150px;
+    background-image:url('../images/sheridanLogo2.png');
+    background-repeat: no-repeat;
+    clear:both;
+}
+
+h1
+{
+    width:230px;
+    margin:0px;
+    padding-left:15px;
+    display:inline-block;
+    float:right;
+    margin-top:105px;
+    color:#FAFAFA;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-top-left-radius:1px;
+    border-bottom-left-radius:20px;
+}
+
+nav
+{
+    height:47px;
+    width:760px;
+    text-align: center;
+    background-color:#193A19; /* temporary back ground color for template */
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+nav ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+
+nav ul li
+{
+    display:inline-block;
+}
+
+nav a
+{
+    padding:15px 17px; /* height, width of the buttons */
+    background-color:#193A19;
+    color:white;
+    display:block;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    background-color:#FFB424;
+    box-shadow:0px 1px 2px #666666;
+    text-decoration:underline;
+}
+
+nav a:active
+{
+    background-color:orange;
+}
+
+.selectedNav
+{
+    background-color:#DB6D16;
+    box-shadow:none;
+    text-decoration:none;
+    cursor:default;
+}
+
+#content
+{
+    margin-right:280px;
+    padding:25px;
+}
+
+#content h2
+{
+    font-family:"Trebuchet MS", sans-serif;
+    color:#DB6D16;
+}
+
+aside
+{
+    float:right;
+    width:230px;
+    padding:25px;
+    line-height:25px;
+    text-decoration:none;
+}
+
+aside h3
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#996633;
+}
+
+aside a
+{
+    padding:5px 0px; /* height, width of the buttons */
+    color:#333333;
+    display:block;
+}
+
+aside a:hover
+{
+    background-color:#FFB424;
+    box-shadow:0px 1px 2px #666666;
+    text-decoration:none;
+}
+
+aside a:active
+{
+    background-color:orange;
+}
+
+hr
+{
+    color:#666666;
+}
+
+footer
+{
+    height:66px; 
+    clear:both;
+    font-family:Tahoma, Arial, sans-serif;
+    font-size:10px;
+    color:#696969;
+    padding:24px;
+    line-height:18px;
+}
+
+footer a
+{
+    color:#696969;
+    text-decoration:none;
+}
+
+footer a:hover
+{
+    color:#DB6D16;
+}
+
+#altnav
+{
+    text-align:right;
+}
+
+button {
+    width: 15%;
+    height: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px solid #24272b;
+    border-radius: 2px;
+}
